@@ -1,0 +1,166 @@
+/* INÍCIO DO CSS RESET */
+/* ~~~~~~~~~~~~~~~~~~~//~~~~~~~~~~~~~~~~~~~~~~~~~~//~~~~~~~~~~~~~~~~~~~~ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ~~~~~~~~~~~~~~~~~~~//~~~~~~~~~~~~~~~~~~~~~~~~~~//~~~~~~~~~~~~~~~~~~~~ */
+/* FIM DO CSS RESET */
+
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    margin-left: 10px;
+    padding-top: 10px;
+    width:2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 150px;
+    text-transform: lowercase;
+   
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 65px;
+    position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botao {
+    display: flex;
+    margin-top: 18px;
+}
+
+.desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    margin-top: 10px;
+}
+
+.desencriptar:hover {
+   font-size: 120%;
+}
+
+.encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-top: 10px;
+}
+
+.encriptar:hover {
+    font-size: 120%;
+ }
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 110px;
+    margin-top: 495px;
+    position: absolute;
+    width: 336px;
+}
+
+.copiar:hover {
+    font-size: 120%;
+ }
+
+.informacao {
+    color: #495057;
+    font-size:18px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.logoalura {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.imagemalerta {
+    float: left;
+    clear: left;
+    margin-top: 15px;
+}
